@@ -3,10 +3,18 @@
 <head> 
 <title> UserLogin page</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="login.css">
+<style>
+  .content {
+  max-width: 500px;
+  margin: auto;
+  background: rgb(209, 56, 56);
+  padding: 10px;
+}
+</style>
 </head>
 
 <body>
+  <div class="content">
 <form action="UserLandingPage.html" method="post">
   <br>
   <br>
@@ -27,11 +35,11 @@
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
-  </div>
+  </div><br>
 
-  <div class="container" style="background-color:#f1f1f1"><br><br>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
+    <span class="psw"><a href="#">Forgot password?</a></span>
+
+</div>
 </div>
 </form>
 </body>
